@@ -21,13 +21,15 @@ def div(a, b):
 
 
 def power(base, pow):
-    result = base ** pow
-    return result
+    return base ** pow
 
 
 def square(base):
     return base * base
 
+
+def greet(이름="낯선자"):
+    return"안녕하신가" + f" {이름}!"
 
 def greet(이름="낯선자", 나이=20):
     인사 = ""
