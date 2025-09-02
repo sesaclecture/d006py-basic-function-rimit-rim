@@ -1,6 +1,3 @@
-import math
-import numpy as np
-
 def add(a, b):
     return a + b
 
@@ -22,7 +19,6 @@ def power(base, pow):
 
 def square(base):
     return base * base
-
 
 def greet(이름="낯선자"):
     return"안녕하신가" + f" {이름}!"
